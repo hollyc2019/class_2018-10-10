@@ -8,6 +8,10 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
+library(readxl)
 ```
 
-## 
+```{r read-in}
+x.17 <- read_excel("class_enrollment_summary_by_term_10.20.17.xlsx")
+```
+
